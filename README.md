@@ -94,44 +94,33 @@
 ——从现在AI浪潮下的视角来看，这种轮子玩具确实没什么价值，放在这里就当为死去的青春做一个祭奠吧。
 ——不光这个项目如此闭门造车，人生也是如此道理，不该浪费太多时间在一些没意义的事实细节上。
 
-
-
-
-<div>
-  <img src="file/7.jpg" height="300"/>
-</div>
 <div>
   <img src="file/8.jpg" height="333"/>
   <img src="file/9.jpg" height="333"/>
   <img src="file/10.jpg" height="333"/>
 </div>
 
-
-
-<br><br>
-<br><br>
 <br><br>
 <br><br>
 <br><br>
 
-
-其实当初还实现过一个OS内核轮子：
-
-
-
-鉴于本人的OS项目已经太监（网文圈子专属用词）并删库跑路了，这里贴出网上几个相对完整的实现链接，但他们的最后一两章仍然是有bug无法跑通的……
-https://github.com/yifengyou/os-elephant
+其实当初还实现过一个OS内核轮子
+<div>
+  <img src="file/7.jpg" height="300"/>
+</div>
+鉴于本人的OS项目已经太监（网文圈子专属用词）并删库跑路了，这里贴出网上几个相对完整的实现链接，但他们的最后一两章仍然是有bug无法跑通的……<br><br>
+https://github.com/yifengyou/os-elephant <br><br>
 https://github.com/Charliechen114514/CCOperateSystem
 
 
 
-找到个更有学习价值的OS项目，但我已经没有学它的时间、兴趣、动力、意义了。代码和文档如下：
-https://gitee.com/lmos/cosmos
+<br><br>找到个更有学习价值的OS项目，但我已经没有学它的时间、兴趣、动力、意义了。代码和文档如下：<br><br>
+https://gitee.com/lmos/cosmos <br><br>
 https://uaxe.github.io/geektime-docs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E6%88%9845%E8%AE%B2/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E6%88%9845%E8%AE%B2/
 
 
 
-最后贴一下自己以前的OS项目文档吧，主要是记录一下当时的心路历程……
+<br><br>最后贴一下自己以前的OS项目文档吧，主要是记录一下当时的心路历程……
 
 
 
