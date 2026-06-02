@@ -1,0 +1,74 @@
+2022-08-03 00:47:54.345819 [info]: ThreadPool created
+2022-08-03 00:47:54.551817 [info]: MysqlConnectionPool created
+2022-08-03 00:47:58.048768 [info]: WebServer begin
+
+2022-08-03 00:51:28.499004 [info]: new client fd 26 connected! IP:192.168.10.3  Port:44154
+
+2022-08-03 00:51:28.502552 [info]: GET / HTTP/1.1
+2022-08-03 00:51:28.502756 [info]: Response done
+
+2022-08-03 00:51:28.510713 [info]: new client fd 27 connected! IP:192.168.10.3  Port:44156
+
+2022-08-03 00:51:28.514131 [info]: GET / HTTP/1.1
+2022-08-03 00:51:28.514284 [info]: Response done
+
+2022-08-03 00:51:28.673839 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:51:28.674135 [info]: Response done
+
+2022-08-03 00:51:28.690636 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:51:28.690916 [info]: Response done
+
+2022-08-03 00:51:33.307274 [info]: POST /1 HTTP/1.1
+2022-08-03 00:51:33.307492 [info]: Response done
+
+2022-08-03 00:51:33.463440 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:51:33.463690 [info]: Response done
+
+2022-08-03 00:51:38.139618 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:51:38.139885 [info]: Response done
+
+2022-08-03 00:51:40.475459 [info]: POST /3 HTTP/1.1
+2022-08-03 00:51:40.475689 [info]: Response done
+
+2022-08-03 00:51:40.593433 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:51:40.593693 [info]: Response done
+
+2022-08-03 00:51:45.083550 [info]: POST /4 HTTP/1.1
+2022-08-03 00:51:45.083756 [info]: Response done
+
+2022-08-03 00:51:45.220685 [info]: GET /xxx.jpg HTTP/1.1
+2022-08-03 00:51:48.541630 [info]: Response done
+
+2022-08-03 00:51:48.626409 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:51:48.626671 [info]: Response done
+
+2022-08-03 00:51:52.765075 [info]: POST /1 HTTP/1.1
+2022-08-03 00:51:52.765296 [info]: Response done
+
+2022-08-03 00:51:52.853215 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:51:52.853458 [info]: Response done
+
+2022-08-03 00:51:59.522289 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:51:59.522512 [info]: Response done
+
+2022-08-03 00:52:01.801376 [info]: POST /3 HTTP/1.1
+2022-08-03 00:52:01.801595 [info]: Response done
+
+2022-08-03 00:52:01.886807 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:52:01.887045 [info]: Response done
+
+2022-08-03 00:52:04.134691 [info]: POST /5 HTTP/1.1
+2022-08-03 00:52:04.134886 [info]: Response done
+
+2022-08-03 00:52:04.261537 [info]: GET /xxx.mp4 HTTP/1.1
+2022-08-03 00:52:04.360281 [info]: GET /favicon.ico HTTP/1.1
+2022-08-03 00:52:04.360550 [info]: Response done
+
+2022-08-03 00:52:14.810862 [info]: Response done
+
+2022-08-03 00:52:30.473078 [info]: GET /xxx.mp4 HTTP/1.1
+2022-08-03 00:52:32.580487 [info]: the server disconnected to client fd 26 
+
+2022-08-03 00:52:32.593384 [info]: GET /xxx.mp4 HTTP/1.1
+2022-08-03 00:52:38.799926 [info]: the server disconnected to client fd 27 
+
