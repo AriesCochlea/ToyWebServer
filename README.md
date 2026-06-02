@@ -72,6 +72,9 @@
 	// 运行服务器sudo ./server的同时再运行：
 	./webbench -c 1000 -t 10 http://127.0.0.1:8888/    //我本人电脑的用户数量-c设置为10000会造成资源不足的错误，改成1000了
 ```
+<div>
+  <img src="file/11.jpg" height="500"/>
+</div>
 
 
 
@@ -96,9 +99,11 @@
 
 <div>
   <img src="file/7.jpg" height="300"/>
-  <img src="file/8.jpg" height="300"/>
-  <img src="file/9.jpg" height="300"/>
-  <img src="file/10.jpg" height="300"/>
+</div>
+<div>
+  <img src="file/8.jpg" height="333"/>
+  <img src="file/9.jpg" height="333"/>
+  <img src="file/10.jpg" height="333"/>
 </div>
 
 
