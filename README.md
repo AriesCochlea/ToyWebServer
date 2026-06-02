@@ -73,7 +73,7 @@
 	./webbench -c 1000 -t 10 http://127.0.0.1:8888/    //我本人电脑的用户数量-c设置为10000会造成资源不足的错误，改成1000了
 ```
 <div>
-  <img src="file/11.jpg" height="300"/>
+  <img src="file/11.jpg" height="400"/>
 </div>
 
 
@@ -95,9 +95,9 @@
 ——不光这个项目如此闭门造车，人生也是如此道理，不该浪费太多时间在一些没意义的事实细节上。
 
 <div>
-  <img src="file/8.jpg" height="300"/>
-  <img src="file/9.jpg" height="300"/>
-  <img src="file/10.jpg" height="300"/>
+  <img src="file/8.jpg" height="250"/>
+  <img src="file/9.jpg" height="250"/>
+  <img src="file/10.jpg" height="250"/>
 </div>
 
 <br><br>
@@ -258,7 +258,7 @@ qemu-system-i386 -m 32  -drive file=60M.img,format=raw,if=ide,index=0,media=disk
 	 6.实验结束后，请按电源键强制关机，拔出U盘，改回曾经的BIOS或UEFI设置即可。
        
 <div>
-  <img src="file/1.png" height="250"/>
+  <img src="file/1.png" height="230"/>
 </div>
 
 
