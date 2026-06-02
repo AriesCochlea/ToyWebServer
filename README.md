@@ -95,9 +95,9 @@
 ——不光这个项目如此闭门造车，人生也是如此道理，不该浪费太多时间在一些没意义的事实细节上。
 
 <div>
-  <img src="file/8.jpg" height="250"/>
-  <img src="file/9.jpg" height="250"/>
-  <img src="file/10.jpg" height="250"/>
+  <img src="file/8.jpg" height="270"/>
+  <img src="file/9.jpg" height="270"/>
+  <img src="file/10.jpg" height="270"/>
 </div>
 
 <br><br>
