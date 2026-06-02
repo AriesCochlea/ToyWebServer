@@ -63,7 +63,7 @@
 ## 效果演示
 
 <div>
-  <img src="file/12.jpg" height="900"/>
+  <img src="file/12.jpg" height="1000"/>
 </div>
 
 
