@@ -108,7 +108,7 @@
 <div>
   <img src="file/7.jpg" height="300"/>
 </div>
-鉴于本人的OS项目已经太监（网文圈子专属用词）并删库跑路了，这里贴出网上几个相对完整的实现链接，但他们的最后一两章仍然是有bug无法跑通的……<br><br>
+鉴于本人的OS项目有不少bug，已经太监（网文圈子专属用词）并删库跑路了，这里贴出网上几个相对完整的实现链接，但他们的最后一两章仍然是有bug无法跑通的……<br><br>
 https://github.com/yifengyou/os-elephant <br><br>
 https://github.com/Charliechen114514/CCOperateSystem
 
@@ -140,36 +140,41 @@ https://uaxe.github.io/geektime-docs/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%
 # TinyOSKernel
 
 
-### 项目说明：
+## 项目说明：
 
-本项目是参考《操作系统真象还原》（作者：郑钢）实现的32位OS内核。原书采用bochs虚拟机，本项目改用更先进的qemu，开发过程中阶段运行时基本上不会遇到棘手的问题，理论上所有运行环境直接下载最新版即可。除了开发环境不一样之外，本项目的代码有一些地方和原书不一样，我自认为改得比原书好。本项目止步于《操作系统真象还原》的第15.4.6节，代码总量只有几千行，我觉得已经完全足够了，对还剩下的三节内容已经失去兴趣和耐心了，但好在OS玩具已经初步成型。而一个项目是永远做不完的，永远可以加入新的功能和模块，永远在迭代，永无止境。到这里我觉得应该适可而止了，主要的原因是自己已经收获了想要的东西即对操作系统底层原理的深入学习而不是代码字里行间的细节和bug，而且走到这里的代价是远大于收获的，有点得不偿失。如果有对原作者的事迹有过了解（https://github.com/yifengyou/os-elephant），就会知道他在写这本书时是完全辞职脱产，在房间的半平米角落里没日没夜的写了19个月才完成并出版，这件事的难度可想而知。但我不太推荐后来的人看这本书，也不建议做这种项目（玩具），因为你做的东西根本没人care，除了你自己……除非你是在校大学生要完成操作系统课程设计——本项目的价值也仅仅如此了，以及你可能在没有业界经验的同学面前吹嘘一下，获得一种比较低级的虚荣感，或者闭门造车自娱自乐。
+本项目是参考《操作系统真象还原》（作者：郑钢）实现的32位OS内核。原书采用bochs虚拟机，本项目改用更先进的qemu，开发过程中阶段运行时基本上不会遇到棘手的问题，理论上所有运行环境直接下载最新版即可。除了开发环境不一样之外，本项目的代码有一些地方和原书不一样，我自认为改得比原书好。本项目止步于《操作系统真象还原》的第15.4.6节，代码总量只有几千行，我觉得已经完全足够了，对还剩下的三节内容已经失去兴趣和耐心了，但好在OS玩具已经初步成型。而一个项目是永远做不完的，永远可以加入新的功能和模块，永远在迭代，永无止境。到这里我觉得应该适可而止了，主要的原因是自己已经收获了想要的东西即对操作系统底层原理的深入学习而不是代码字里行间的细节和bug，而且走到这里的代价是远大于收获的，有点得不偿失。如果有对原作者的事迹有过了解https://github.com/yifengyou/os-elephant
+就会知道他在写这本书时是完全辞职脱产，在房间的半平米角落里没日没夜的写了19个月才完成并出版，这件事的难度可想而知。但我不太推荐后来的人看这本书，也不建议做这种项目（玩具），因为你做的东西根本没人care，除了你自己……除非你是在校大学生要完成操作系统课程设计——本项目的价值也仅仅如此了，以及你可能在没有业界经验的同学面前吹嘘一下，获得一种比较低级的虚荣感，或者闭门造车自娱自乐。
 
 
 
 注意：原书代码是不能直接运行在裸机（物理机）上的，需要做些调整，具体改动详见boot文件夹里的代码。
 
-### 生产环境：
+## 生产环境：
 64位Intel机，4G运行内存；
-Ubuntu20.04
+Ubuntu20.04，
 qemu-system-i386
 
-### 环境配置：（直接安装最新版即可）
+## 环境配置：
 ### 软件更新
-sudo apt update && sudo apt upgrade && sudo apt autopurge && sudo apt autoclean
-### 安装qemu-system-i386：（其他的依赖包，在项目编译过程中可以自行补充安装，建议参考一些网络博客或问AI以安装一些依赖包。若想安装完整版的qemu，则sudo apt install qemu-system）
-sudo apt install qemu-system-x86
+```
+	//直接安装最新版即可
+	sudo apt update && sudo apt upgrade && sudo apt autopurge && sudo apt autoclean
+```
+### 安装qemu-system-i386
+```
+	//其他的依赖包在项目编译过程中可以自行补充安装，建议参考一些网络博客或问AI。若想安装完整版的qemu，则sudo apt install qemu-system
+	sudo apt install qemu-system-x86
+```
+
+<br><br>
 
 
+## 运行方法：
 
-
-
-### 运行方法：
-
-
-
-一、在qemu虚拟机上运行：
-      直接在本项目目录下运行脚本文件即可：
-      sh ./run.sh
+### 在qemu虚拟机上运行
+直接在本项目目录下运行脚本文件即可：
+```
+	sh ./run.sh
 
 其中，./run.sh脚本的内容如下：
 
@@ -236,11 +241,11 @@ sudo dd if=build/kernel.bin of=60M.img  bs=512 count=256 seek=9 conv=notrunc
 echo "OS启动！"  #-m 32  表示分配32MB内存
 qemu-system-i386 -m 32  -drive file=60M.img,format=raw,if=ide,index=0,media=disk \
                         -drive file=80M.img,format=raw,if=ide,index=1,media=disk
+```
 
 
 
-
-二、在物理机上运行：实验结束后，请按电源键强制关机，拔出U盘，改回曾经的BIOS或UEFI设置即可。
+### 在物理机上运行
 
      1.准备一个不用的U盘（推荐至少2GB，注意备份数据。实验结束后，U盘可以重新格式化来恢复正常使用）；
      2.在Linux上确定你的U盘的设备名称：在插入U盘前后分别使用df命令获取磁盘文件系统的情况——
@@ -250,32 +255,35 @@ qemu-system-i386 -m 32  -drive file=60M.img,format=raw,if=ide,index=0,media=disk
      4.依次运行sh build.sh和sh usb.sh。此时U盘已经准备完毕。
      5.在电脑关机状态下打开BIOS（每种型号电脑打开方法不一样，请自行搜索），
        如果是UEFI（一般都会兼容传统的BIOS）则改为传统BIOS启动（具体改法因机而异，请自行搜索），选择USB HDD启动。
+	 6.实验结束后，请按电源键强制关机，拔出U盘，改回曾经的BIOS或UEFI设置即可。
        
 <div>
-  <img src="file/1.png" height="300"/>
+  <img src="file/1.png" height="250"/>
 </div>
 
 
+<br><br>
 
 
-
-### 运行效果：
+## 运行效果：
 在物理机上测试键盘驱动和时钟中断：
 <div>
-  <img src="file/2.gif" height="300"/>
+  <img src="file/2.gif" height="1000"/>
   <img src="file/3.gif" height="300"/>
+  <img src="file/4.png" height="300"/>
+
 </div>
 
 
+<br><br>
 为防止损坏电脑的硬盘数据，其他模块改在qemu虚拟机上测试：
 <div>
-  <img src="file/4.png" height="300"/>
   <img src="file/5.png" height="300"/>
   <img src="file/6.png" height="300"/>
 </div>
 
 
-
+<br><br>
 
 
 
